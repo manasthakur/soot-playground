@@ -1,23 +1,31 @@
-# SOOT PLAYGROUND 
+# SOOT PLAYGROUND
 
-This repo helps you to write various small analysis to know more about Java Programs.
-After cloning this repository, you might need few more setps before running.
+|  <img src="image.png" alt="logo" width="120"> | **SOOT PLAYGROUND**  
+|:----------------------:|:--------------------|
 
-# Directory Structure:
+This repository helps you to write various small analysis to know more about Java Programs.
+* Clone the repository: 
+    `Command: git clone git@github.com:CompL-Research/Soot-playground.git`
+
+After cloning this repository, you might need few more steps before running the actual analysis.
+
+
+## Directory Structure:
 
 ```
 project-root/
 ├── scripts/
 ├── soot/
 ├── src/
-├── Benchmarks/
-├── jdk-binaries/
+├── Benchmarks/ (Should be added)
+├── jdk-binaries/ (Should be added)
 └── README.md
 ```
+## Setup Guidelines
 
-**Setup Guidelines: Steps for Setting up the Repo.**
+**Steps for Setting up the Repository.**
 
-`Step 1:` Download the standard benchmarks for soot.
+`Step 1:` Download the standard benchmarks for soot. (`Benchmarks` folder)
     
     Command: git clone git@github.com:adityaanand7/Benchmarks.git
 This repo currently provides four benchmark-suites: 
@@ -27,7 +35,7 @@ This repo currently provides four benchmark-suites:
 4. Renaissance Benchmark-Suite
 5. DaCapo-23.11-MR1-chopin Suite (Will be updated soon)
 
-`Step 2:` Download a suitable jdk (any jdk8 suggested).
+`Step 2:` Download a suitable jdk (any jdk8 suggested). (`jdk-binaries` folder)
     
     Command: git clone git@github.com:adityaanand7/jdk-binaries.git
              cd jdk-binaries
@@ -39,7 +47,7 @@ For runnning you programs. You can go to the scripts folder and run:
 
     Command: cd scripts 
              bash benchmark.sh olddacapo avrora
-The first arugument specifies the benchmark suite and the second specifies the benchmark name.<br>
+The first arugument specifies the `benchmark suite` and the second specifies the `benchmark name`.<br>
 **Benchmark Suites possible options:**
 ``` 
     * olddacapo for (dacapo-9.12-MR1-bach) <br>

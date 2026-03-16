@@ -20,7 +20,7 @@ print_banner() {
 # Set the paths according to your installation. All paths must be full paths.
 
 # Installed path of Java 8 JDK
-java_install_path=`realpath ../jdk-binaries/jdk1.8.0_301/`
+java_install_path=`realpath /Users/manas/Programs/Soot-playground/jdk-binaries/jdk1.8.0_471.jdk/Contents/Home`
 
 # contain individual Benchmarks 
 Benchmarks_base_path=`realpath ../Benchmarks/`
